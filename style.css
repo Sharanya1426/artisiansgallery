@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*{
+    cursor:url('cursor.png'),auto;
+}
+        
+
+
+.header{
+        position: absolute;
+        background-color:rgba(3, 3, 23, 0.95);
+        padding-top: 10px;
+        height: 15%;
+        width:100%;
+        display:flex;
+        align-items: center;
+        justify-content:center;
+        flex-direction: row;
+        
+       
+       }
+
+ .logo{
+        width: 40px;
+        height: 40px;
+        padding-right: 250px;
+        border: 1px solid rgb(2, 0, 10);
+        border-radius: 50%;
+       }
+
+#second{
+        background-color: black;
+        height: 15%;
+        width:100%;
+        display:flex;
+        align-items: center;
+        justify-content:center;
+        flex-direction: row;
+        
+        
+        }
+#third{
+        background-image: url(bg=1.jpeg);
+        padding-top: 500px;
+        padding-left: 150px;
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        height: 800px;
+        width: 100%;
+}        
+
+
+#fourth{
+    background:rgba(5, 5, 5, 0.904);
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:30px;
+    border: 3px solid rgba(239, 159, 9, 0.625);
+    border-radius:5px; 
+}
+
+
+img{
+    transform: rotate(30deg);
+}
+
+#img1{
+    position: absolute;
+    left: 400px;
+    transition: transform 2s;
+}
+
+
+#img2{
+    position: absolute;
+    left:500px;
+    transition: transform 2s;
+}
+
+#img3{
+    position: absolute;
+    left: 600px;
+    transition: transform 2s;
+}
+
+#img4{
+    position: absolute;
+    left: 700px;
+    transition: transform 2s;
+}
+
+#img5{
+    position: absolute;
+    left: 800px;
+    transition: transform 2s;
+}
+#img1:hover, #img2:hover, #img3:hover, #img4:hover ,#img5:hover{
+    z-index: 2;
+    transform: rotate(0deg);
+    border-radius: 20px;
+    border: 2px solid red;
+}
+
+
+
+#fifth{
+    background:rgba(5, 5, 5, 0.904);
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    border: 3px solid rgba(239, 159, 9, 0.625);
+    border-radius:5px;
+}
+
+
+img{
+    transform: rotate(30deg);
+}
+
+#img6{
+    position: absolute;
+    left: 400px;
+    transition: transform 2s;
+}
+
+
+#img7{
+    position: absolute;
+    left:500px;
+    transition: transform 2s;
+}
+
+#img8{
+    position: absolute;
+    left: 600px;
+    transition: transform 2s;
+}
+
+#img9{
+    position: absolute;
+    left: 700px;
+    transition: transform 2s;
+}
+
+#img10{
+    position: absolute;
+    left: 800px;
+    transition: transform 2s;
+}
+#img6:hover, #img7:hover, #img8:hover, #img9:hover ,#img10:hover{
+    z-index: 2;
+    transform: rotate(0deg);
+    border-radius: 20px;
+    border: 2px solid red;
+}
+
+
+#sixth{
+    background:rgba(5, 5, 5, 0.904);
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    border: 3px solid rgba(239, 159, 9, 0.625);
+    border-radius:5px;
+    padding-bottom: 35px;
+}
+
+
+img{
+    transform: rotate(30deg);
+}
+
+#img11{
+    position: absolute;
+    left: 400px;
+    transition: transform 2s;
+}
+
+
+#img12{
+    position: absolute;
+    left:500px;
+    transition: transform 2s;
+}
+
+#img13{
+    position: absolute;
+    left: 600px;
+    transition: transform 2s;
+}
+
+#img14{
+    position: absolute;
+    left: 700px;
+    transition: transform 2s;
+}
+
+#img11:hover, #img12:hover, #img13:hover, #img14:hover {
+    z-index: 2;
+    transform: rotate(0deg);
+    border-radius: 20px;
+    border: 2px solid red;
+}
+
+
+#seventh{
+    background:rgba(5, 5, 5, 0.904);
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    border: 3px solid rgba(239, 159, 9, 0.625);
+    border-radius:5px;
+    padding-bottom: 35px;
+}
+img{
+    transform: rotate(30deg);
+}
+
+#img15{
+    position: absolute;
+    left: 400px;
+    transition: transform 2s;
+}
+
+
+#img16{
+    position: absolute;
+    left:500px;
+    transition: transform 2s;
+}
+
+#img17{
+    position: absolute;
+    left: 600px;
+    transition: transform 2s;
+}
+
+
+
+#img15:hover, #img16:hover, #img17:hover  {
+    z-index: 2;
+    transform: rotate(0deg);
+    border-radius: 20px;
+    border: 2px solid red;
+}
+
+
+#eight{
+    background:rgba(5, 5, 5, 0.904);
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    border: 3px solid rgba(239, 159, 9, 0.625);
+    border-radius:5px;
+    padding-bottom: 35px;
+}
+img{
+    transform: rotate(30deg);
+}
+
+#img18{
+    position: absolute;
+    left: 400px;
+    transition: transform 2s;
+}
+
+
+#img19{
+    position: absolute;
+    left:500px;
+    transition: transform 2s;
+}
+
+#img20{
+    position: absolute;
+    left: 600px;
+    transition: transform 2s;
+}
+
+
+
+#img20:hover, #img19:hover, #img18:hover  {
+    z-index: 2;
+    transform: rotate(0deg);
+    border-radius: 20px;
+    border: 2px solid red;
+}
+
+
+
+#ninth{
+    background:rgba(5, 5, 5, 0.904);
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    border: 3px solid rgba(239, 159, 9, 0.625);
+    border-radius:5px;
+    padding-bottom: 35px;
+}
+img{
+    transform: rotate(30deg);
+}
+
+#img21{
+    position: absolute;
+    left: 400px;
+    transition: transform 2s;
+}
+
+
+#img22{
+    position: absolute;
+    left:500px;
+    transition: transform 2s;
+}
+
+#img23{
+    position: absolute;
+    left: 600px;
+    transition: transform 2s;
+}
+
+
+
+#img21:hover, #img22:hover, #img23:hover  {
+    z-index: 2;
+    transform: rotate(0deg);
+    border-radius: 20px;
+    border: 2px solid red;
+}
+
+
+#tenth{
+    background:rgba(5, 5, 5, 0.904);
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    border: 3px solid rgba(239, 159, 9, 0.625);
+    border-radius:5px;
+}        
+
