@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    cursor: url('cursor_paint.png'), auto;
+
 }
 
-*{
-    cursor:url('cursor.png'),auto;
+body{
+    
 }
         
 
